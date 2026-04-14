@@ -335,8 +335,16 @@ class Programador(EmpleadoBase):
         
         print("4. escribo codigo y resuelvo problemas tecnicos")
         
+class Desarrollador(EmpleadoBase):
+    def iniciar_rutina(self):
+        super().iniciar_rutina()
+        print("Y YO ME QUEDO EN CASA A DESARROLLAR PROGRAMAS ")
+        
 trabajador1 = Programador()
 trabajador1.iniciar_rutina()
+
+trabajador2 = Desarrollador()
+trabajador2.iniciar_rutina()
 
 # SI EXISTE UN RETURNO SEGUIDO DE UN SUPER, TRAE EL VALOR QUE TENEMOS QUE EL CONTTRUCTOR Y RETORNA EL VALOR
 
