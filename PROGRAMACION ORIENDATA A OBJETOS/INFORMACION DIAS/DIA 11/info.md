@@ -13,11 +13,11 @@
 
 billetera1 + billetera2, 
 -para enseñar el +, sobreescribimos `__add__(self, otro_objeto)` (sumar)
--para enseñar el -, sobreescribimos `__sub__(self, otro_objeto)` (restar)
+-para enseñar el -
+, sobreescribimos `__sub__(self, otro_objeto)` (restar)
 -para enseñar el >, sobreescribimos `__gt__(self, otro_objeto)` (greater than )
 -para enseñar el <, sobreescribimos `__lt__(self, otro_objeto)` (less than )
 -para enseñar el ==, sobreescribimos `__eq__(self, otro_objeto)` (equal | igual )
-
 
 
 ## LAS TRES FORMAS 
