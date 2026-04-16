@@ -75,4 +75,4 @@ biblioteca_original.agregar_libro(libro1)
 biblioteca_original.agregar_libro(libro2)
 biblioteca_original.agregar_libro(libro3)
 
-biblioteca_original.mostrar_inventario() 
+biblioteca_original.mostrar_inventario()  
