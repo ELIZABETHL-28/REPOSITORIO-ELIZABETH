@@ -21,5 +21,5 @@ ejercicio dado sobre un celular
 
 # RELACIONES "1 A MUCHOS" (LISTAS DE OBJETOS)
 ## ejemplo 
-# ejercicio 
+# ejercicio y nos dejo avanzar en proyecto 
 

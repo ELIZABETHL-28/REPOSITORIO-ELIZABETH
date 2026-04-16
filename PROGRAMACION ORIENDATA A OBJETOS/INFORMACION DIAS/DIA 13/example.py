@@ -78,10 +78,14 @@ curso_poo = Curso("POO")
 curso_poo.matricular(alumno1)
 curso_poo.matricular(alumno2)
 
+
 #aca lo edite para poder aguardarlo
 curso_poo.pasar_lista()
 curso_poo.lista_matriculados[0].nombre = "FERS LIZ"
 curso_poo.pasar_lista()
+
+
+
 
 
         

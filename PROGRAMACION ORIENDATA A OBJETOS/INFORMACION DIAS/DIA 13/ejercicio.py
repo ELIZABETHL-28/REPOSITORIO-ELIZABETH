@@ -54,7 +54,7 @@ class Libro():
     def __str__(self):
         return f'--{self.titulo}-- ESCRITO POR --{self.autor}--'        
     
-class Biblioteca(): 
+class Bibliotecas(): 
     def __init__(self, nombre_sucursal):
         self.nombre_sucursal = nombre_sucursal
         self.catalogo = []
@@ -70,7 +70,7 @@ class Biblioteca():
 libro1 = Libro("1984", "George Orwell")
 libro2 = Libro("Guerra y Paz", "Lev Tolstói")
 libro3 = Libro("En busca del tiempo perdido", "Marcel Proust")
-biblioteca_original = Biblioteca("BIBLIOTECA GENERAL") 
+biblioteca_original = Bibliotecas("BIBLIOTECA GENERAL") 
 biblioteca_original.agregar_libro(libro1)
 biblioteca_original.agregar_libro(libro2)
 biblioteca_original.agregar_libro(libro3)
