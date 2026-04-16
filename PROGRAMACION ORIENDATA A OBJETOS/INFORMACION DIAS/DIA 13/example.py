@@ -72,15 +72,16 @@ class Curso():
         for alumno in self.lista_matriculados:
             print(f"- {alumno.carnet}: {alumno.nombre}")
             
-alumno1 = Estudiantes("FER", "AB1")
+alumno1 = Estudiantes("FERS", "AB1")
 alumno2 = Estudiantes("ANDREW", "AB2")
 curso_poo = Curso("POO")
 curso_poo.matricular(alumno1)
 curso_poo.matricular(alumno2)
+#aca lo edite para poder aguardarlo
+curso_poo.pasar_lista()
+curso_poo.lista_matriculados[0].nombre = "FERS LIZ"
+curso_poo.pasar_lista()
 
-curso_poo.pasar_lista()
-curso_poo.lista_matriculados[0].nombre = "FER ELIZABETH"
-curso_poo.pasar_lista()
 
         
         
